@@ -2,6 +2,7 @@ import styled from 'styled-components/macro';
 
 
 export const InfoContainer = styled.div`
+    height: 100vh;
     color: #fff;
     background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
 
