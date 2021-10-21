@@ -1,10 +1,13 @@
 import React from 'react'
+import { scrollToTop } from 'react-scroll/modules/mixins/animate-scroll'
+import SignIn from '../components/Signin'
 
 const SigninPage = () => {
     return (
-        <div>
-            <h1>Sign in page</h1>
-        </div>
+        <>
+        <scrollToTop />
+            <SignIn />
+        </>
     )
 }
 
